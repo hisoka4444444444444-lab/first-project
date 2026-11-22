@@ -4,7 +4,7 @@
 int main()
 {
     int n,deletee;
-    printf("Enter the number: \n");
+    printf("Enter the element: \n");
     scanf("%d",&n);
     int value[n];
     for(int i = 0;i < n;i++)
