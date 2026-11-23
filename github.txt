@@ -1,0 +1,21 @@
+git --version
+
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+git init
+git status
+
+git add .
+git commit -m "My changes"
+
+git branch -M main
+
+git remote add origin REPOSITORY_URL
+git remote -v
+
+git push -u origin main
+git push
+
+git clone REPOSITORY_URL
+git pull
